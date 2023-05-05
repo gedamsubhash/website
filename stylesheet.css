@@ -1,0 +1,194 @@
+.TopContainer{
+    background-color: #DBDFEA;
+}
+.navbar{
+    margin-bottom:3rem;
+    padding:0 2rem;
+}
+.navbar-brand{
+    height:3rem;
+    border-radius:50%;
+}
+span.navbar-brand{
+    font-family: 'Ubuntu-Bold 700', sans-serif;
+    /* margin; */
+}
+li.nav-item {
+    margin:0 15px;
+}
+.link{
+    text-decoration: none;
+}
+.ccimg{
+    margin: 0 0 3px 0 !important;
+}
+a.nav-link:hover{
+    color:black;
+    text-decoration:underline;
+}
+.heading{
+    text-align: left;
+}
+.heading>h1{
+    font-family: 'Montserrat-Black900', sans-serif;
+    font-size:4rem;
+}
+h1>.btn{
+    display:block;
+    margin-top:1rem;
+}
+.img-fluid{
+    padding:5%;
+    border-radius:3rem;
+    
+}
+#bytexl{
+    width:18rem;
+}
+.fluid-container{
+    padding:1% 15% 7%;
+}
+.ml-auto{
+    margin-left:12rem !important;
+}
+
+
+/* 2nd Section  */
+.SecondSection{
+    text-align:center;
+}
+.SecondSection>h1{
+    font-family: 'Montserrat-Black 900', sans-serif;
+    font-weight:bolder;
+    margin:1rem auto;
+}
+.logo{
+    padding:0 3rem 1rem;
+}
+/* testimonial section */
+.carousel-item{
+    background-color: #AFD3E2;
+    text-align:center;
+}
+.testimonial-image{
+    width:60%;
+    padding:2rem 0;
+    border-radius:15% 50%;
+}
+.testimonial-text{
+    margin-top:3rem;
+    font-family: 'Montserrat-Black 900', sans-serif;
+    font-weight: bolder;
+}
+.seperator{
+    height: 3rem;
+    background-color: rgba(56, 197, 210, 0.423);
+    border: solid rgba(48, 167, 171, 0.251);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+#pricing{
+    padding:100px;
+    background-color: #D4FAFC;
+}
+.pricing-col{
+    text-align: center;
+    padding:3% 2%;
+}
+.pricing-col>p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* footer section  */
+#footer{
+    text-align:center;
+}
+.social-icon{
+    padding:2rem 1.5rem 0.75rem;
+}
+.container-fluid>p{
+    margin-bottom:1.5rem;
+}
+
+.fa-4x{
+    padding:3%;
+}
+@media (max-width:1380px){
+    .ml-auto{
+        margin-left:5rem !important;
+    }
+    li.nav-item {
+        margin:0 5px;
+    }
+}
+@media (max-width:1136px){
+    .ml-auto{
+        margin-left:0rem !important;
+    }
+    li.nav-item {
+        margin:0 5px;
+    }
+}
+@media (max-width:993px){
+    .target1{
+        padding-top:5%;
+    }
+}
+@media (max-width:1500px){
+    li.nav-item {
+        margin:0 5px;
+    }
+}
+@media (max-width:400px){
+    html,body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+    .navbar-brand>img{
+        padding: 0;
+        margin: 0 !important;
+        height: auto;
+        width: 2rem;
+    }
+    div.col-lg-6.heading>h1{
+        font-size:2rem;
+        padding:0;
+    }
+    .navbar{
+        margin-bottom:1rem;
+    }
+    a.link{
+        display: inline-block;
+        width: 11rem;
+    }
+    button.navber-toggler{
+        width:auto;
+    }
+    .social-icon{
+        display:inline;
+        padding:2rem 0.5rem 0;
+    }
+    .container-fluid>p{
+        margin:0.5rem auto 1rem;
+        padding:0;
+    }
+    #bytexl{
+        width:15rem;
+        margin-bottom:1rem;
+    }
+    img#parul.logo{
+        padding:1rem;
+        width:400px;
+        height:100px;
+    }
+    .cardSection>h2{
+        font-weight:bolder;
+    }
+    .cardSection>h2,.cardSection>p{
+        text-align: center;
+    }
+}
